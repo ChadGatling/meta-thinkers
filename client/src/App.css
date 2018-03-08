@@ -22,7 +22,32 @@
   font-size: large;
 }
 
+.body-text {
+  font-family: fontBody;
+}
+
+.header-text {
+  font-family: fontHeader;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@font-face {
+    font-family: fontHeader;
+    src: url(http://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+}
+
+@font-face {
+    font-family: fontBody;
+    src: url(http://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+}
+
+@font-face {
+    font-family: fontOther;
+    src: url(http://cdn2.editmysite.com/fonts/wSocial/wsocial.woff?ts=1519950722272);
+}
+
