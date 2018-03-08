@@ -1,0 +1,9 @@
+{
+  "name": "meta-thinkers",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:ewendel88/meta-thinkers.git",
+  "author": "Elliott Wendel <ewendel88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
