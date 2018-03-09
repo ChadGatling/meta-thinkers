@@ -8,7 +8,9 @@
 	"scripts": {
 		"client": "node scripts/start-client.js",
 		"start": "concurrently \"nodemon server.js\" \"npm run client\"",
-		"build": "node scripts/build.js"
+		"build": "node scripts/build.js",
+		"installDeps": "yarn && cd client && yarn",
+		"postinstall": "cd client && yarn build"
 	},
 	"dependencies": {
 		"express": "^4.16.2",
