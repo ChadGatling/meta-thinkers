@@ -38,16 +38,16 @@
 
 @font-face {
     font-family: fontHeader;
-    src: url(JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+    src: url(//fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
 }
 
 @font-face {
     font-family: fontBody;
-    src: url(JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+    src: url(//fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
 }
 
 @font-face {
     font-family: fontOther;
-    src: url(wsocial.woff?ts=1519950722272);
+    src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.woff?ts=1519950722272);
 }
 
