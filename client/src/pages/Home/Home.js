@@ -1,4 +1,8 @@
+// Modules
 import React, { Component } from "react";
+
+// Components
+import Footer from "../../components/Footer";
 
 const imageStyle = {
 width:"100%",
@@ -22,7 +26,7 @@ class Home extends Component {
 		<div>
 			<div style={imageStyle}></div>
 			
-			<div className="jumbotron body-text">
+			<div className="jumbotron body-text bg-white">
 				<p>
 					Meta Thinkers provides personalized enrichment programs with strong foundations and practices around whole-child education that is transferable into themes and projects fit to each unique learning environment. 
 				</p>
@@ -33,6 +37,7 @@ class Home extends Component {
 					Ownership is celebrated in Thinker Showcases, bringing whole-communities together.
 				</p>
 			</div>
+			<hr />
 		</div>
 		)
 	}

@@ -24,11 +24,47 @@
 
 .body-text {
   font-family: fontBody;
+  color: grey;
+  font-size: large;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+}
+
+.about-text {
+  font-family: fontBody;
+  color: grey;
+  font-size: medium;
+  letter-spacing: 0.02em;
+  line-height: 30px;
 }
 
 .header-text {
   font-family: fontHeader;
   text-align: center;
+}
+
+.testimonial-text {
+  font-family: fontOther;
+  font-size: large;
+  line-height: 3;
+}
+
+.nav-text {
+  font-family: fontBody;
+  font-size: small;
+}
+
+.text-black {
+  color: black;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.list-dot {
+  list-style: disc inside;
+  padding-left: 48px;
 }
 
 @keyframes App-logo-spin {
